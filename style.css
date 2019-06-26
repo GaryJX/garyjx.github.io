@@ -1,0 +1,59 @@
+body {
+  background-color: #2C2E2E;
+}
+
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  height: 100vh;
+  background-color: inherit;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1em;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+#social-media img {
+  width: 35px;
+  height: 35px;
+  padding-left: 0.5%;
+  margin-left: 10px;
+}
+
+#mail {
+  margin-top: 5px;
+}
