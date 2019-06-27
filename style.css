@@ -2,6 +2,9 @@ body {
   background-color: #2C2E2E;
 }
 
+.desktop {
+  display: none;
+}
 .navbar {
   font-family: Poppins;
 }
@@ -80,5 +83,7 @@ footer p {
 }
 
 @media (min-width: 768px) {
-  
+  .desktop {
+    display: inline;
+  }
 }
