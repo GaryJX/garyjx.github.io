@@ -1,11 +1,5 @@
-ScrollReveal().reveal('.scroll-left',{
+ScrollReveal().reveal('.scroll-reveal',{
   duration: 1500,
-  origin: 'left',
-  distance: '200px'
-});
-
-ScrollReveal().reveal('.scroll-right', {
-  duration: 1500,
-  origin: 'right',
+  origin: 'bottom',
   distance: '200px'
 });
