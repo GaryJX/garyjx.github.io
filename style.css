@@ -2,6 +2,9 @@ body {
   background-color: #2C2E2E;
 }
 
+.navbar {
+  font-family: Poppins;
+}
 
 .jumbotron {
   padding-top: 3rem;
@@ -13,7 +16,7 @@ body {
 
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
+  min-height: 100vh; /* These two lines are counted as one */
 
   display: flex;
   align-items: center;
@@ -54,6 +57,28 @@ footer p {
   margin-left: 10px;
 }
 
+#social-media img:hover {
+  opacity: 0.5;
+}
+
 #mail {
   margin-top: 5px;
+}
+
+.logo {
+  max-height:7vh;
+  padding-top: 0;
+  padding-bottom:0;
+  width: auto;
+}
+
+.section-header {
+  font-size: 50px;
+  font-weight: 500;
+  color: #45ace0;
+  text-shadow: 5px 5px 5px rgba(16, 71, 99, 0.4);
+}
+
+@media (min-width: 768px) {
+  
 }
