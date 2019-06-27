@@ -10,6 +10,7 @@ body {
   color: #45ace0 !important;
   text-shadow: 3px 3px 5px rgba(16, 71, 99, 1) !important;
   font-weight: bold;
+  padding-bottom: 0;
 }
 
 .jumbotron {
