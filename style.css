@@ -13,6 +13,15 @@ footer.bg-dark {
   background-color: rgba(15, 15, 15, 0.8) !important;
 }
 
+.card-img-top {
+  height: 300px;
+}
+
+.github-link {
+  height: 20px;
+  filter: invert(100%);
+}
+
 .navbar {
   font-family: Poppins;
 }
