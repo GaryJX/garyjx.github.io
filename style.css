@@ -18,8 +18,8 @@ footer.bg-dark {
 }
 
 .github-link {
-  height: 20px;
-  filter: invert(100%);
+  height: 20px !important;
+  filter: invert(100%) !important;
 }
 
 .navbar {
