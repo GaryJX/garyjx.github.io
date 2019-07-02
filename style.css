@@ -1,5 +1,16 @@
 body {
   background-color: #2C2E2E;
+  background-image:  url("assets/potential_bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-dark {
+  background-color: rgba(15, 15, 15, 0.5) !important;
+}
+
+footer.bg-dark {
+  background-color: rgba(15, 15, 15, 0.8) !important;
 }
 
 .navbar {
@@ -49,8 +60,8 @@ body {
 }
 
 footer {
-  padding-top: 1rem;
-  padding-bottom: 1em;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 footer p {
